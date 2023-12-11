@@ -68,7 +68,7 @@ const Update = ()=>{
         <input type="email" placeholder="Enter e mail" onChange={emailData} value={email} ></input>  <br />
 
         <label htmlFor="">Phone_number :</label><br />
-        <input type="number" placeholder="Enter Ph_number" onChange={numberData} value={number} ></input>  <br /><br /> 
+        <input type="tel" placeholder="Enter Ph_number" onChange={numberData} value={number} ></input>  <br /><br /> 
 
         <button onClick={formhandle}>Submit</button>
 
